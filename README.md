@@ -6,7 +6,7 @@
 
 Tenho conhecimento em tecnologias web, com foco especial em ReactJS ⚛️, e estou sempre em busca de aprimorar minhas habilidades técnicas e criativas na construção de interfaces modernas e funcionais 🎨💡.
 
-Minha trajetória profissional começou como técnico em TI, realizando manutenções de computadores. Essas experiências me ensinaram a escutar com atenção, resolver problemas com empatia, e a valorizar profundamente a experiência do usuário — algo que carrego comigo em cada linha de código que escrevo 💻✍️.
+Minha trajetória profissional começou como técnico em TI, realizando manutenções de computadores. Essas experiências me ensinaram a escutar com atenção, resolver problemas com empatia, e a valorizar profundamente a experiência do usuário, algo que carrego comigo em cada linha de código que escrevo 💻✍️.
 
 Sou apaixonado por tecnologia e acredito que o aprendizado contínuo é a chave para evoluir na área. Estou constantemente estudando, criando projetos próprios e me desafiando a ir além, buscando sempre entregar soluções eficientes e intuitivas.
 
