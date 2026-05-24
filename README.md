@@ -10,6 +10,8 @@ Tenho olho para design e acredito que bons produtos nascem da união entre códi
 
 Documento minha jornada no YouTube pelo canal **BertoCodes** — aprendendo e ensinando ao mesmo tempo.
 
+**Meu objetivo** é atuar como Frontend Developer em empresas de produto, trabalhando com React, UI/UX e mobile — construindo interfaces que as pessoas amam usar.
+
 Se quiser trocar ideias sobre frontend, UI/UX ou desenvolvimento web, é só me chamar! 🤝
 
 ---
@@ -37,15 +39,6 @@ Se quiser trocar ideias sobre frontend, UI/UX ou desenvolvimento web, é só me 
 
 <br/>
 <br/>
-
----
-
-### 📊 Estatísticas
-
-<p>
-  <img alt="GitHub Stats" height="180" src="https://github-readme-stats.vercel.app/api?username=eilincoln&show_icons=true&theme=github_dark&include_all_commits=true&locale=pt-br"/>
-  <img alt="Top Langs" height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eilincoln&theme=github_dark&layout=compact&custom_title=Tecnologias&langs_count=9"/>
-</p>
 
 ---
 
