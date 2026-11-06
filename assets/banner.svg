@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="t d">
+  <title id="t">Lincoln Berto · Desenvolvedor Front-end</title>
+  <desc id="d">Banner com o nome Lincoln Berto, o cargo Desenvolvedor Front-end e um editor de código que escreve um objeto JavaScript com a stack e os sistemas em produção.</desc>
+  <defs>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#8844ee" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#8844ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".04"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="400" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: "Space Grotesk", "Inter", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 17px; }
+    .k { fill: #c792ea; } .p { fill: #e4e4e7; } .s { fill: #b5e86b; } .n { fill: #f78c6c; } .b { fill: #a674f5; } .c { fill: #71717a; }
+
+    .line { animation: show .35s ease-out both; }
+    .l1 { animation-delay: .4s; } .l2 { animation-delay: .9s; } .l3 { animation-delay: 1.4s; }
+    .l4 { animation-delay: 1.9s; } .l5 { animation-delay: 2.4s; } .l6 { animation-delay: 2.9s; }
+    .l7 { animation-delay: 3.4s; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    .pulse { transform-origin: 66px 297px; animation: pulse 2s ease-out infinite; }
+    .fade { animation: show .6s ease-out .1s both; }
+
+    @keyframes show { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes pulse { 0% { opacity: .6; transform: scale(1); } 100% { opacity: 0; transform: scale(2.6); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .line, .fade { animation: none; }
+      .cursor, .pulse { animation: none; }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="400" fill="#111113"/>
+    <rect width="1200" height="400" fill="url(#grid)"/>
+    <circle cx="200" cy="120" r="420" fill="url(#glow)"/>
+    <circle cx="1100" cy="380" r="300" fill="url(#glow)" opacity=".5"/>
+
+    <!-- Lado esquerdo: apresentação -->
+    <g class="sans fade">
+      <text x="56" y="118" fill="#a1a1aa" font-size="22">Olá, eu sou o</text>
+      <text x="56" y="186" fill="#fafafa" font-size="66" font-weight="700" letter-spacing="-1.5">Lincoln Berto</text>
+      <text x="56" y="236" fill="#a674f5" font-size="28" font-weight="600">Desenvolvedor Front-end</text>
+
+      <rect x="48" y="278" width="296" height="38" rx="19" fill="#1f1f23" stroke="#323238"/>
+      <circle class="pulse" cx="66" cy="297" r="6" fill="#b5e86b"/>
+      <circle cx="66" cy="297" r="6" fill="#b5e86b"/>
+      <text x="82" y="303" fill="#e4e4e7" font-size="16">Aberto a vagas · Itatiba/SP</text>
+    </g>
+
+    <!-- Lado direito: editor de código -->
+    <g transform="translate(600 56)">
+      <rect width="548" height="288" rx="14" fill="#18181b" stroke="#323238"/>
+      <path d="M0 14a14 14 0 0 1 14-14h520a14 14 0 0 1 14 14v26H0z" fill="#1f1f23"/>
+      <circle cx="22" cy="20" r="6" fill="#ff5f57"/>
+      <circle cx="42" cy="20" r="6" fill="#febc2e"/>
+      <circle cx="62" cy="20" r="6" fill="#28c840"/>
+      <text x="274" y="25" text-anchor="middle" class="mono" font-size="13" fill="#71717a">lincoln.ts</text>
+
+      <g class="mono" transform="translate(24 76)">
+        <text class="line l1" y="0"><tspan class="k">const</tspan><tspan class="p"> lincoln </tspan><tspan class="k">=</tspan><tspan class="p"> {</tspan></text>
+        <text class="line l2" y="30"><tspan class="p" dx="22">cargo: </tspan><tspan class="s">"Front-end Júnior"</tspan><tspan class="p">,</tspan></text>
+        <text class="line l3" y="60"><tspan class="p" dx="22">stack: [</tspan><tspan class="s">"React"</tspan><tspan class="p">, </tspan><tspan class="s">"TypeScript"</tspan><tspan class="p">, </tspan><tspan class="s">"Supabase"</tspan><tspan class="p">],</tspan></text>
+        <text class="line l4" y="90"><tspan class="p" dx="22">sistemasEmProducao: </tspan><tspan class="n">2</tspan><tspan class="p">,</tspan></text>
+        <text class="line l5" y="120"><tspan class="p" dx="22">clientes: [</tspan><tspan class="s">"Sonar"</tspan><tspan class="p">],</tspan></text>
+        <text class="line l6" y="150"><tspan class="p" dx="22">disponivel: </tspan><tspan class="b">true</tspan><tspan class="p">,</tspan></text>
+        <text class="line l7" y="180"><tspan class="p">};</tspan><tspan class="c">  // bora conversar?</tspan><tspan class="cursor b"> ▍</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
